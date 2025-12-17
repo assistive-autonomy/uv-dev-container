@@ -7,7 +7,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
-        unzip psmisc wget bc jq htop curl git git-lfs vim nano ssh gcc tmux && \
+        unzip psmisc wget bc jq htop curl git git-lfs vim nano ssh gcc tmux libglib2.0-0 libgl1 && \
     rm -rf /var/lib/apt/lists/* /var/cache/*
 
 # Install uv and clean up
