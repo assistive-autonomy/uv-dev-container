@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uv-dev-container"
+version = "0.1.0"
+description = "CUDA-enabled dev container with uv, GPU support, and essential tooling"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Rimvydas Rubavicius", email = "rimvydas.rubavicius@ed.ac.uk"}]
+    
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: System :: Containerization",
+]
+
+[project.urls]
+Repository = "https://github.com/assistive-autonomy/uv-dev-container"
+Issues = "https://github.com/assistive-autonomy/uv-dev-container/issues"
